@@ -47,7 +47,6 @@ void sendToSerial(const String &message) {
 void setup(void)
 {
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(LED_BUILTIN2, OUTPUT);
 
   Serial.begin(115200);
   lcd.begin(); // initialize the LCD
