@@ -1,6 +1,7 @@
-# Arduino_Keypad3-4_LCDI2C_PN532-HSU
-Arduino code Keypad3*4 and LCD with I2C and PN532 for HSU
-
+# pyduino
+This code is for connecting Arduino to Python
+So that when we approach a certain tag
+Python asks for the password.
 **keypad                      = [2,3,4,5,6,7,8]**
 
 **PN532             [SDA,SCL] = [A2,A3]**
